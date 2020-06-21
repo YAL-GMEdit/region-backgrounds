@@ -2,7 +2,7 @@
 Allows to give your regions custom backgrounds.
 
 Syntax:
-```gml
+```cs
 GMS2:
 #region[#RRGGBBAA]...
 ...
@@ -21,8 +21,6 @@ GMS1:
 Regions are re-indexed when line count changes and after saving.
 
 This isn't the most efficient, but I've not seen issues in my tests.
-
-This may slightly increase the CPU load for cursor navigation in very large files.
 
 ![screenshot](./region-backgrounds.png)
 
